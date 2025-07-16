@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fariha's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <h1 class="text-2xl font-bold text-blue-600">Fariha Faraz</h1>
+        <ul class="flex space-x-6 font-semibold">
+          <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+          <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20 text-center">
+    <h2 class="text-5xl font-bold mb-4">Hi, I'm Fariha 👩‍💻</h2>
+    <p class="text-xl">Frontend Developer | UI/UX Enthusiast | Tech Explorer</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 md:px-24 bg-white">
+    <div class="flex flex-col md:flex-row items-center gap-8">
+      <img src="/images/fari pic 1.JPG" alt="Profile" class="rounded-full w-48 h-48 object-cover shadow-lg" />
+      <div>
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="text-gray-700 text-lg">I'm a dedicated web developer with a passion for building elegant, user-friendly, and high-performing websites. I specialize in front-end development using modern tools like Tailwind CSS, React, and Next.js.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-6 md:px-24 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project One</h3>
+        <p class="text-gray-600">A responsive website for e-commerce built with Next.js and Tailwind CSS.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project Two</h3>
+        <p class="text-gray-600">A portfolio template designed for creatives and freelancers.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project Three</h3>
+        <p class="text-gray-600">A Python-based chatbot integrated into a simple UI.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 px-6 md:px-24 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center">
+      <div class="bg-gray-100 p-4 rounded shadow">HTML & CSS</div>
+      <div class="bg-gray-100 p-4 rounded shadow">JavaScript</div>
+      <div class="bg-gray-100 p-4 rounded shadow">React / Next.js</div>
+      <div class="bg-gray-100 p-4 rounded shadow">Tailwind CSS</div>
+      <div class="bg-gray-100 p-4 rounded shadow">Python</div>
+      <div class="bg-gray-100 p-4 rounded shadow">Node.js</div>
+      <div class="bg-gray-100 p-4 rounded shadow">Git & GitHub</div>
+      <div class="bg-gray-100 p-4 rounded shadow">UI/UX Design</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 md:px-24 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-10">Contact Me</h2>
+    <form class="max-w-2xl mx-auto space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded shadow-sm" required>
+      <input type="email" placeholder="Your Email" class="w-full p-3 border rounded shadow-sm" required>
+      <textarea placeholder="Your Message" class="w-full p-3 border rounded shadow-sm" rows="5" required></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Fariha Faraz. All rights reserved.</p>
+    <p class="mt-2">
+      Follow me on
+      <a href="https://www.linkedin.com/in/fariha-faraz-90365b14b/" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a>
+      & <a href="https://github.com/Fariha-Asif?tab=repositories" target="_blank" class="text-blue-400 hover:underline">GitHub</a>
+    </p>
+  </footer>
+</body>
+
+</html>
